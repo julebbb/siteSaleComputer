@@ -1,0 +1,48 @@
+html, body {
+  margin: 0px;
+  font-family: fantasy, cursive, sans-serif;
+}
+
+/*Header*/
+header {
+  background-color: pink;
+  height: 200px;
+}
+
+header ul {
+  display: block;
+  list-style-type: none;
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  text-align: right;
+}
+
+header li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+header li img {
+  position: relative;
+  top: 18px;
+  border: 1px solid aliceblue;
+  border-radius: 20px;
+  padding: 11px;
+  margin-right: 5px;
+}
+
+header form {
+  position: relative;
+}
+
+header input {
+  display: block;
+  position: absolute;
+  top: 15px;
+  right: 70px;
+}
+
+#search_bar {
+  width: 435px;
+}
