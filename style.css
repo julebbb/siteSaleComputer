@@ -7,7 +7,7 @@ html, body {
 
 /*Header*/
 header {
-  background-color: black;
+  background-color: darkslateblue;
   height: 200px;
   position: relative;
   top: -20px;
@@ -85,6 +85,7 @@ header ul, #index h1 {
   background-color: white;
   margin: 0px 20px;
   display: inline-block;
+  padding-bottom: 20px;
 }
 
 #index h1 {
@@ -94,8 +95,12 @@ header ul, #index h1 {
 }
 
 .bigArticle {
-  width: 1200px;
+    width: 1200px;
+}
+
+.bigArticle {
   margin: auto;
+  height: 420px;
 }
 
 .bigArticle img {
@@ -105,12 +110,46 @@ header ul, #index h1 {
 
 .bigArticle div {
   display: inline-block;
-  position: absolute;
-  right: 15px;
+  position: relative;
+  left: 15px;
+  bottom: 25%;
   width: 50%;
 }
 
 .seeMore {
   display: block;
   text-align: center;
+}
+
+.litArticle {
+  font-size: 10px;
+  width: 1120px;
+  margin: auto;
+}
+
+.litArticleLeft {
+  display: inline-block;
+  position: relative;
+  left: 15px;
+  width: 560px;
+  text-align: justify;
+}
+
+.litArticleRight {
+  display: inline-block;
+  width: 49%;
+  vertical-align: top;
+}
+
+.litArticleLeft img, .litArticleRight img {
+  padding: 20px;
+  display: inline-block;
+  margin: auto;
+
+}
+
+.litArticleLeft div, .litArticleRight div {
+  display: inline-block;
+  width: 270px;
+
 }
