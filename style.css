@@ -27,7 +27,7 @@ header h1 {
 }
 
 #search_bar {
-  width: 50%;
+  width: 45%;
 }
 
 header ul {
@@ -92,14 +92,13 @@ header ul, #index h1 {
 
 #index h2 {
   background-color: cornflowerblue;
-  padding: 15px;
   text-align: center;
 }
 
 .bigArticle {
   margin: auto;
-  height: 420px;
   width: 100%;
+  margin-bottom: 20px;
 }
 
 .bigArticle img {
@@ -139,13 +138,21 @@ header ul, #index h1 {
   position: relative;
   left: 15px;
   width: 50%;
-  text-align: justify;
 }
 
 .litArticleRight {
   display: inline-block;
   width: 42%;
   vertical-align: top;
+}
+
+.litArticleLeft, .litArticleRight {
+  text-align: center;
+}
+
+.litArticleLeft ul, .litArticleRight ul{
+  text-align: justify;
+  padding: 0;
 }
 
 .litArticleLeft img, .litArticleRight img {
