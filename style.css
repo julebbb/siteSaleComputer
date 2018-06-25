@@ -9,8 +9,8 @@ html, body {
 header {
   background-color: darkslateblue;
   height: 200px;
-  position: relative;
-  top: -20px;
+  display: inline-block;
+  width: 100%;
 }
 
 header > img {
@@ -84,8 +84,10 @@ header ul, #index h1 {
 #index {
   background-color: white;
   margin: 0px 20px;
-  display: inline-block;
+  display: block;
   padding-bottom: 20px;
+  width: 1200px;
+  margin: auto;
 }
 
 #index h1 {
@@ -118,7 +120,16 @@ header ul, #index h1 {
 
 .seeMore {
   display: block;
+  width: 135px;
+  margin: auto;
   text-align: center;
+  padding: 10px;
+  border: 1px solid cornflowerblue;
+  border-radius: 20px;
+  background: darkslateblue;
+  color: white;
+  text-decoration: none;
+
 }
 
 .litArticle {
@@ -150,6 +161,41 @@ header ul, #index h1 {
 
 .litArticleLeft div, .litArticleRight div {
   display: inline-block;
-  width: 270px;
+  width: 260px;
 
+}
+
+/*****Footer******/
+
+footer {
+  background-color: darkslateblue;
+}
+
+footer h3 {
+  margin: 15px;
+}
+
+.payment {
+  display: inline-block;
+  width: 49%;
+  margin-left: 5px;
+}
+
+.join {
+  display: inline-block;
+  width: 49%;
+  text-align: right;
+}
+
+footer > p {
+  text-align: center;
+}
+
+footer > a {
+  display: block;
+  text-align: center;
+}
+
+.payment img {
+  padding-right: 5px;
 }
