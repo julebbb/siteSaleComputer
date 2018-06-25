@@ -10,8 +10,8 @@
       <img src="images/headerImg.jpg" alt="Picture network" style="width: 250px;">
       <h1>Wennebi</h1>
       <ul>
-        <li><img src="images/iconHome.png" alt="Icon home" style="width: 30px;"><a href="index.html">Home</a></li>
-        <li><img src="images/iconContact.png" alt="Icon contact" style="width: 30px;"><a href="contactUs.html">Contact us</a></li>
+        <li><a href="index.html"><img src="images/iconHome.png" alt="Icon home" style="width: 30px;">Home</a></li>
+        <li><a href="contactUs.html"><img src="images/iconContact.png" alt="Icon contact" style="width: 30px;">Contact us</a></li>
       </ul>
       <form class="" action="index.html" method="post">
         <input type="text" name="search_bar" id="search_bar">
@@ -19,17 +19,28 @@
       </form>
     </header>
     <section>
-      <h1>Contact us</h1>
+      <h2>Contact us</h2>
       <p>If you want more information about our products or some problems, write here and we reply you as fast as possible :</p>
       <form class="" action="index.html" method="post">
         <label for="name">Name</label>
-        <input type="text" name="name">
+        <input type="text" name="name" id="name">
         <label for="email">E-mail</label>
-        <input type="email" name="email">
+        <input type="email" name="email" id="email">
         <label for="message">Message</label>
-        <textarea name="message" rows="8" cols="80"></textarea>
+        <textarea name="message" rows="8" cols="80" id="message"></textarea>
         <input type="submit" name="send" value="Send">
       </form>
+      <div>
+        <h3>Compagny infos</h3>
+        <h4>Number</h4>
+        <p>06 25 42 41 00</p>
+        <h4>E-mail</h4>
+        <p>contact@wennebi.fr</p>
+        <h4>Address</h4>
+        <p>22 rue Jasmin
+        75016 - Paris
+        </p>
+      </div>
     </section>
     <footer>
       <div class="payment">
