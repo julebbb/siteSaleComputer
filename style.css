@@ -86,23 +86,20 @@ header ul, #index h1 {
   margin: 0px 20px;
   display: block;
   padding-bottom: 20px;
-  width: 1200px;
+  width: 95%;
   margin: auto;
 }
 
-#index h1 {
+#index h2 {
   background-color: cornflowerblue;
   padding: 15px;
   text-align: center;
 }
 
 .bigArticle {
-    width: 1200px;
-}
-
-.bigArticle {
   margin: auto;
   height: 420px;
+  width: 100%;
 }
 
 .bigArticle img {
@@ -112,10 +109,8 @@ header ul, #index h1 {
 
 .bigArticle div {
   display: inline-block;
-  position: relative;
-  left: 15px;
-  bottom: 25%;
-  width: 50%;
+  vertical-align: top;
+  width: 47%;
 }
 
 .seeMore {
@@ -133,8 +128,9 @@ header ul, #index h1 {
 }
 
 .litArticle {
+  display: block;
   font-size: 10px;
-  width: 1120px;
+  width: 100%;
   margin: auto;
 }
 
@@ -142,18 +138,18 @@ header ul, #index h1 {
   display: inline-block;
   position: relative;
   left: 15px;
-  width: 560px;
+  width: 50%;
   text-align: justify;
 }
 
 .litArticleRight {
   display: inline-block;
-  width: 49%;
+  width: 42%;
   vertical-align: top;
 }
 
 .litArticleLeft img, .litArticleRight img {
-  padding: 20px;
+  padding: 12px;
   display: inline-block;
   margin: auto;
 
@@ -161,7 +157,7 @@ header ul, #index h1 {
 
 .litArticleLeft div, .litArticleRight div {
   display: inline-block;
-  width: 260px;
+  width: 40%;
 
 }
 
@@ -199,3 +195,5 @@ footer > a {
 .payment img {
   padding-right: 5px;
 }
+
+/* ##############|||Tablet support|||############## */
