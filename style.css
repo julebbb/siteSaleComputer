@@ -93,6 +93,11 @@ header ul, #index h1 {
 #index h2 {
   background-color: cornflowerblue;
   text-align: center;
+  margin-top: 0px;
+}
+
+#index > h2 {
+  padding: 12px;
 }
 
 .bigArticle {
@@ -202,5 +207,81 @@ footer > a {
 .payment img {
   padding-right: 5px;
 }
-
 /* ##############|||Tablet support|||############## */
+@media (min-width: 768px) and (max-width: 1024px) {
+
+  header input {
+    padding: 10px;
+  }
+}
+/* ##############|||Mobile support|||############## */
+
+@media (min-width: 320px) and (max-width: 768px) {
+
+header {
+  height: 250px;
+}
+
+header input, header > img, .litArticleLeft, .litArticleRight {
+  position: initial;
+}
+
+header input, header > img, header h1, #search_bar, .bigArticle div {
+  margin: auto;
+}
+
+header > img, header h1, #search_bar, header li,.payment, .join, .bigArticle div, .litArticleLeft, .litArticleRight{
+  display: block;
+}
+
+header h1 {
+  position: absolute;
+  top: 50px;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
+
+#search_bar {
+  width: 90%;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+header ul {
+  right: -110px;
+  text-align: inherit;
+}
+
+/*Index Responsive*/
+
+.bigArticle img, .litArticleRight img, .litArticleLeft img{
+  width: 85% !important;
+}
+
+.bigArticle div, .litArticleLeft div, .litArticleRight div {
+  font-size: 12px;
+}
+
+.litArticleLeft, .litArticleRight {
+  margin-top: 20px;
+}
+
+.payment, .join, .litArticleLeft, .litArticleRight, .bigArticle div, .litArticleLeft div, .litArticleRight div{
+  width: 100%;
+}
+
+.litArticleLeft ul, .litArticleRight ul {
+  padding-left: 10%;
+}
+
+.payment, .join {
+  text-align: center;
+  margin: 0;
+}
+
+footer h3 {
+  padding: 12px
+}
+
+}
