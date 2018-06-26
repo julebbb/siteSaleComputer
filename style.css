@@ -173,6 +173,49 @@ header ul, #index h1 {
 
 }
 
+/*****Contact*****/
+#contact label, #contact input {
+  display: block;
+}
+
+#contact form, #infos {
+  display: inline-block;
+  width: 48%;
+}
+
+#contact {
+  background: lightblue;
+  margin: 0 20px;
+}
+
+#contact > h2 {
+  margin: 0;
+  padding: 12px;
+}
+
+#contact > p {
+  text-align: center;
+}
+
+#contact > div {
+  padding: 10px;
+}
+
+#contact label {
+  text-align: center;
+}
+
+#contact input {
+  margin: auto;
+}
+
+#infos {
+  text-align: right;
+}
+
+textarea {
+  width: 100%;
+}
 /*****Footer******/
 
 footer {
@@ -213,6 +256,14 @@ footer > a {
   header input {
     padding: 10px;
   }
+  #contact form, #infos {
+    display: block;
+    width: 100%;
+  }
+
+  #infos {
+    text-align: center;
+  }
 }
 /* ##############|||Mobile support|||############## */
 
@@ -230,7 +281,7 @@ header input, header > img, header h1, #search_bar, .bigArticle div {
   margin: auto;
 }
 
-header > img, header h1, #search_bar, header li,.payment, .join, .bigArticle div, .litArticleLeft, .litArticleRight{
+header > img, header h1, #search_bar, header li,.payment, .join, .bigArticle div, .litArticleLeft, .litArticleRight, #contact form, #infos{
   display: block;
 }
 
@@ -253,6 +304,10 @@ header ul {
   text-align: inherit;
 }
 
+section {
+  margin: 0 !important;
+}
+
 /*Index Responsive*/
 
 .bigArticle img, .litArticleRight img, .litArticleLeft img{
@@ -267,8 +322,8 @@ header ul {
   margin-top: 20px;
 }
 
-.payment, .join, .litArticleLeft, .litArticleRight, .bigArticle div, .litArticleLeft div, .litArticleRight div{
-  width: 100%;
+section, .payment, .join, .litArticleLeft, .litArticleRight, .bigArticle div, .litArticleLeft div, .litArticleRight div, #contact form, #infos{
+  width: 100% !important;
 }
 
 .litArticleLeft ul, .litArticleRight ul {
@@ -280,8 +335,17 @@ header ul {
   margin: 0;
 }
 
+/*Contact Responsive*/
+textarea {
+  width: 97%;
+}
+
+#infos {
+  text-align: center;
+}
+
 footer h3 {
-  padding: 12px
+  padding: 12px;
 }
 
 }
